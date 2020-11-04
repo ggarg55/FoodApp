@@ -1,0 +1,27 @@
+{
+  "dish": [{
+    "name": "Cola",
+    "ingredients": "Cola",
+    "weight": "330",
+    "quantity": "1",
+    "price": "45"
+  }, {
+    "name": "Lemon Crush",
+    "ingredients": "Lemon Crush",
+    "weight": "330",
+    "quantity": "1",
+    "price": "46"
+  }, {
+    "name": "Monkey Blood",
+    "ingredients": "Monkey Blood",
+    "weight": "330",
+    "quantity": "1",
+    "price": "35"
+  }, {
+    "name": "Ginger Ale",
+    "ingredients": "Ginger Ale",
+    "weight": "330",
+    "quantity": "1",
+    "price": "55"
+  }]
+}

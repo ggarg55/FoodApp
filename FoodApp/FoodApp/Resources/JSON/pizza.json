@@ -1,0 +1,45 @@
+{
+  "dish": [{
+    "name": "Deluxe",
+    "ingredients": "Chicken, Ham, Pepparoni, Tomato, Sauce, Spicy Chorizo and Mozzarella",
+    "weight": "150",
+    "quantity": "35",
+    "price": "46",
+    "spicy": true
+  },{
+    "name": "Hawaiian",
+    "ingredients": "Chicken,Mozzarella, Pineapple, Domnino's Sauce",
+    "weight": "150",
+    "quantity": "35",
+    "price": "55",
+    "spicy": true
+  },{
+    "name": "Pepperoni",
+    "ingredients": "Mozzarella, Pepperoni,Tomatos, BBQ Sauce",
+    "weight": "150",
+    "quantity": "35",
+    "price": "55",
+    "spicy": true
+  },{
+    "name": "Deluxe L",
+    "ingredients": "Chicken, Ham, Pepparoni, Tomato, Sauce, Spicy Chorizo and Mozzarella",
+    "weight": "150",
+    "quantity": "70",
+    "price": "100",
+    "spicy": true
+  },{
+    "name": "Hawaiian L",
+    "ingredients": "Chicken,Mozzarella, Pineapple, Domnino's Sauce",
+    "weight": "150",
+    "quantity": "70",
+    "price": "110",
+    "spicy": true
+  },{
+    "name": "Pepperoni L",
+    "ingredients": "Mozzarella, Pepperoni,Tomatos, BBQ Sauce",
+    "weight": "150",
+    "quantity": "70",
+    "price": "120",
+    "spicy": true
+  }]
+}

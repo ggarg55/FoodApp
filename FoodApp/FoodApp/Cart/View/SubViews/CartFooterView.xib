@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="eOt-xL-Ssa" customClass="CartFooterView" customModule="FoodApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="434" height="90"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Delivery is free" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xun-cF-BfW">
+                    <rect key="frame" x="30" y="15" width="85" height="15"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="85" id="fJF-Op-pKb"/>
+                        <constraint firstAttribute="height" constant="15" id="xCD-r3-hfy"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="value:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jii-Ih-Mek">
+                    <rect key="frame" x="30" y="50" width="45" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="160 usd" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i1x-Mz-Ndq">
+                    <rect key="frame" x="85" y="46" width="83" height="28"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="28" id="xqX-P9-Yvk"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.93725490199999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <accessibility key="accessibilityConfiguration" identifier="CartFooterView"/>
+            <constraints>
+                <constraint firstItem="i1x-Mz-Ndq" firstAttribute="leading" secondItem="jii-Ih-Mek" secondAttribute="trailing" constant="10" id="0hR-Sq-JcQ"/>
+                <constraint firstItem="jii-Ih-Mek" firstAttribute="top" secondItem="Xun-cF-BfW" secondAttribute="bottom" constant="20" id="Mac-aJ-8Fr"/>
+                <constraint firstItem="Xun-cF-BfW" firstAttribute="top" secondItem="eOt-xL-Ssa" secondAttribute="top" constant="15" id="OgF-6g-bTn"/>
+                <constraint firstItem="jii-Ih-Mek" firstAttribute="leading" secondItem="HUH-Ra-395" secondAttribute="leading" constant="30" id="TdJ-A5-hnD"/>
+                <constraint firstItem="i1x-Mz-Ndq" firstAttribute="top" secondItem="Xun-cF-BfW" secondAttribute="bottom" constant="16" id="Upp-ZT-wfH"/>
+                <constraint firstItem="Xun-cF-BfW" firstAttribute="leading" secondItem="eOt-xL-Ssa" secondAttribute="leading" constant="30" id="g49-0g-1FY"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="HUH-Ra-395"/>
+            <point key="canvasLocation" x="149.27536231884059" y="-159.04017857142856"/>
+        </view>
+    </objects>
+</document>
